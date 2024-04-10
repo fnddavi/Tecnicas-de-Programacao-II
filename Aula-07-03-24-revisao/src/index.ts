@@ -9,10 +9,9 @@ class Pessoa {
     this.nasc = nasc;
   }
   imprimir(): void {
-    console.log(this.nome);
-    console.log(this.email);
-    console.log(this.nasc);
-    console.log("Idade: " + this.idade(this.nasc) + " anos");
+    console.log("Nome: "+this.nome);
+    console.log("e-mail: "+this.email);
+    console.log("Data nasc.: "+this.nasc);
   }
 }
 
