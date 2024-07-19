@@ -13,6 +13,7 @@ var Pessoa = /** @class */ (function () {
 }());
 var cliente = new Pessoa("Fernando Davi", "fernando.ferreira32", "11/05/1989");
 cliente.imprimir();
+
 /*
 idade(nasc: string): number {
         const dataNasc = Number(nasc.split("/")[2]);
